@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		029D808C253766A000384524 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 029D808B253766A000384524 /* song1.mp3 */; };
+		029D809225376FEB00384524 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 029D808F25376FEB00384524 /* song2.mp3 */; };
+		029D809325376FEB00384524 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 029D809025376FEB00384524 /* song3.mp3 */; };
+		029D809425376FEB00384524 /* song4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 029D809125376FEB00384524 /* song4.mp3 */; };
 		02BBBB0E2534929E00317D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBBB0D2534929E00317D78 /* AppDelegate.swift */; };
 		02BBBB102534929E00317D78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBBB0F2534929E00317D78 /* SceneDelegate.swift */; };
-		02BBBB122534929E00317D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBBB112534929E00317D78 /* ViewController.swift */; };
+		02BBBB122534929E00317D78 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBBB112534929E00317D78 /* MainVC.swift */; };
 		02BBBB152534929E00317D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BBBB132534929E00317D78 /* Main.storyboard */; };
 		02BBBB17253492A000317D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BBBB16253492A000317D78 /* Assets.xcassets */; };
 		02BBBB1A253492A000317D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BBBB18253492A000317D78 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		029D808B253766A000384524 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song1.mp3; path = "Auto Music Player/song1.mp3"; sourceTree = SOURCE_ROOT; };
+		029D808F25376FEB00384524 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song2.mp3; path = "Auto Music Player/song2.mp3"; sourceTree = SOURCE_ROOT; };
+		029D809025376FEB00384524 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song3.mp3; path = "Auto Music Player/song3.mp3"; sourceTree = SOURCE_ROOT; };
+		029D809125376FEB00384524 /* song4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song4.mp3; path = "Auto Music Player/song4.mp3"; sourceTree = SOURCE_ROOT; };
 		02BBBB0A2534929E00317D78 /* Auto Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BBBB0D2534929E00317D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BBBB0F2534929E00317D78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02BBBB112534929E00317D78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02BBBB112534929E00317D78 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		02BBBB142534929E00317D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02BBBB16253492A000317D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02BBBB19253492A000317D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +45,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029D80882537664100384524 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				029D808B253766A000384524 /* song1.mp3 */,
+				029D808F25376FEB00384524 /* song2.mp3 */,
+				029D809025376FEB00384524 /* song3.mp3 */,
+				029D809125376FEB00384524 /* song4.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		029D80892537664E00384524 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				02BBBB132534929E00317D78 /* Main.storyboard */,
+				02BBBB18253492A000317D78 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		029D808A2537666300384524 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				02BBBB0D2534929E00317D78 /* AppDelegate.swift */,
+				02BBBB0F2534929E00317D78 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		02BBBB012534929E00317D78 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +93,11 @@
 		02BBBB0C2534929E00317D78 /* Auto Music Player */ = {
 			isa = PBXGroup;
 			children = (
-				02BBBB0D2534929E00317D78 /* AppDelegate.swift */,
-				02BBBB0F2534929E00317D78 /* SceneDelegate.swift */,
-				02BBBB112534929E00317D78 /* ViewController.swift */,
-				02BBBB132534929E00317D78 /* Main.storyboard */,
+				029D808A2537666300384524 /* Delegates */,
+				029D80892537664E00384524 /* Storyboards */,
+				029D80882537664100384524 /* Songs */,
+				02BBBB112534929E00317D78 /* MainVC.swift */,
 				02BBBB16253492A000317D78 /* Assets.xcassets */,
-				02BBBB18253492A000317D78 /* LaunchScreen.storyboard */,
 				02BBBB1B253492A000317D78 /* Info.plist */,
 			);
 			path = "Auto Music Player";
@@ -93,6 +129,12 @@
 		02BBBB022534929E00317D78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+					3,
+					4,
+				);
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
@@ -125,8 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				02BBBB1A253492A000317D78 /* LaunchScreen.storyboard in Resources */,
+				029D809325376FEB00384524 /* song3.mp3 in Resources */,
 				02BBBB17253492A000317D78 /* Assets.xcassets in Resources */,
 				02BBBB152534929E00317D78 /* Main.storyboard in Resources */,
+				029D808C253766A000384524 /* song1.mp3 in Resources */,
+				029D809425376FEB00384524 /* song4.mp3 in Resources */,
+				029D809225376FEB00384524 /* song2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BBBB122534929E00317D78 /* ViewController.swift in Sources */,
+				02BBBB122534929E00317D78 /* MainVC.swift in Sources */,
 				02BBBB0E2534929E00317D78 /* AppDelegate.swift in Sources */,
 				02BBBB102534929E00317D78 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2Z5VT54PS;
 				INFOPLIST_FILE = "Auto Music Player/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2Z5VT54PS;
 				INFOPLIST_FILE = "Auto Music Player/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
